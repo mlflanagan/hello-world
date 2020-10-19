@@ -27,10 +27,10 @@
    - Click the "Pull request" link to create a pull request
    - Click the green "Create pull request" button
 10. Merge the pull request with the main branch
-   - Click the green "Merge pull request" button and click "Confirm merge"
-   - You should see "Pull request successfully merged and closed. You’re all
-     set — the update-readme branch can be safely deleted."
-   - Click the green "Delete branch" button to delete the update-readme branch
+    - Click the green "Merge pull request" button and click "Confirm merge"
+    - You should see "Pull request successfully merged and closed. You’re all
+      set — the update-readme branch can be safely deleted."
+    - Click the green "Delete branch" button to delete the update-readme branch
 
 ## Notes:
 - Check out and create the new branch with one command with:
