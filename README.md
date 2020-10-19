@@ -39,10 +39,13 @@
   git branch
 - Combine add and commit steps with:
   git commit -am "commit message"
-- After merging and deleting the update-readme branch, clean up your local repo
-  with:
-  - git checkout main to make the main branch active
-  - git pull to merge the remote changes with the local main branch
-  - git branch -d update-readme to delete the update-readme branch in the local
-    repo
+- After merging and deleting the update-readme branch, clean up your local repo:
+   - Option 1:
+      - rm -rf update-readme
+      - git clone ssh://git@hgithub.com/mlflanagan/hello-world to get a fresh copy
+   - Option 2:
+     - git checkout main to make the main branch active
+      - git pull to merge the remote changes with the local main branch
+      - git branch -d update-readme to delete the update-readme branch in the local
+        repo
 
