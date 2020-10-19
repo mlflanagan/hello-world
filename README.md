@@ -1,6 +1,6 @@
 # hello-world
 
-##Basic happy path workflow
+## Basic happy path workflow
 1. Set up a remote repo with a single branch called "main" with an empty README
    file
     - Click the green New button
@@ -20,7 +20,7 @@
 8. Push your changes to teh remote repo with:
    git push -u origin update-readme
 
-##Notes:
+## Notes:
 - Check out and create the new branch with one command with:
   git checkout -b update-readme
 - Show branches and the active branch with:
