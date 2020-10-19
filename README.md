@@ -39,4 +39,8 @@
   git branch
 - Combine add and commit steps with:
   git commit -am "commit message"
+- After merging and deleting the update-readme branch, clean up your local repo
+  with:
+  - git checkout main
+  - git pull
 
