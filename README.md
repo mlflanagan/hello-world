@@ -41,6 +41,8 @@
   git commit -am "commit message"
 - After merging and deleting the update-readme branch, clean up your local repo
   with:
-  - git checkout main
-  - git pull
+  - git checkout main to make the main branch active
+  - git pull to merge the remote changes with the local maion branch
+  - git branch -d update-readme to delete the update-readme branch in the local
+    repo
 
